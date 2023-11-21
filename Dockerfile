@@ -8,6 +8,6 @@ RUN make build
 
 FROM scratch
 WORKDIR /
-COPY --from=builder /demo/app .
+COPY --from=builder /go/src/app .
 ENTRYPOINT [ "./ascii-artify-demo" ]
 

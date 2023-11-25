@@ -24,7 +24,7 @@ k -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}
 
 Ввести ім'я додатку (в моєму кейсі week4-demo)
 
-Обрати проект (за замолчуванням це default)
+Обрати проект (за замовчуванням це default)
 
 Ввести URL репозиторію у поле `Repository URL`
 
@@ -32,7 +32,7 @@ k -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}
 
 Обрати Cluster URL (простір імен кластеру Kubernetes)
 
-Ввести ім'я namespce у відповідному полі
+Ввести ім'я namespace у відповідному полі
 
 У розділі `Cync Options` обрати `Autocreate Namespace`
 
